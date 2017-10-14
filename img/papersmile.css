@@ -1,0 +1,117 @@
+@font-face {
+  font-family: BEBASNEUE;
+  src: url("BEBASNEUE.OTF") format("opentype");
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: BEBASNEUE, Arial;
+}
+
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  text-align: center;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+
+  font-size: 24px;
+  color: #000;
+}
+
+a.social {
+  display: block;
+  margin-left: 10px;
+  height: 43px;
+  width: 43px;
+}
+a.facebook {
+  background: url("social.jpg");
+}
+a.instagram {
+  background: url("social.jpg");
+  background-position-x: 43px;
+}
+
+
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 992px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+  
+.logo img {
+  height: 50px;
+}
+
+
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+
+  ul.nav {
+    margin-top: 14%;
+  }
+  .logo img {
+	  height: 180px;
+  }
+  
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+
+
+
+}
+
