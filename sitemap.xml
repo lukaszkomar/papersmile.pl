@@ -1,0 +1,13 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% for page in site.pages %}
+    {% if page.priority %}
+    <url>
+        <loc>http://{{ site.url }}{{ page.url | remove: 'index.html' | replace: '.html', '' }}</loc>                      
+        <priority>{{ page.priority }}</priority>
+    </url>
+    {% endif %}
+    {% endfor %}
+</urlset>

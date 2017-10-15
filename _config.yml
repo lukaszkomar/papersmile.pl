@@ -1,0 +1,30 @@
+# Header metadata
+
+# Mind no '/' at the and of url
+url: papersmile.pl
+
+# Company name
+companyName: Paper Smile
+companyFullName: Paper Smile
+
+title: Paper Smile
+description: Paper Smile
+keywords: Paper Smile
+author: Paper Smile
+
+google_site_verification: x
+google_map_apikey: x
+
+analytics: 
+    code: x
+    domain: papersmile.pl
+  
+# Social media
+social:
+    gplus: x
+  
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Warsaw
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink: /:title/
