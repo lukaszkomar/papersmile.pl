@@ -7,6 +7,8 @@
   src: url("PROXIMA-NOVA.OTF") format("opentype");
 }
 
+.mb50 { margin-bottom: 50px; }
+
 /* Space out content a bit */
 body {
   padding-top: 20px;
