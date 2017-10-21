@@ -39,7 +39,16 @@ body {
   border-color: #fff;
 
   font-size: 20px;  /*24 przy czcionce beba*/
-  color: #000 !important;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #000;
+  margin: 0 15px;
+  padding: 10px 0;
+}
+.navbar-default .navbar-nav>.active>a {
+  color: #000;
+  background-color: #fff;
+  border-bottom: 2px solid black;
 }
 
 a.social {
