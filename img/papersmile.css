@@ -38,8 +38,8 @@ body {
   background-color: #fff;
   border-color: #fff;
 
-  font-size: 24px;
-  color: #000;
+  font-size: 20px;  /*24 przy czcionce beba*/
+  color: #000 !important;
 }
 
 a.social {
@@ -94,7 +94,7 @@ a.instagram {
   }
 
   ul.nav {
-    margin-top: 14%;
+    margin-top: 10%;  /*14% przy czcionce beba*/
   }
   .logo img {
 	  height: 180px;
