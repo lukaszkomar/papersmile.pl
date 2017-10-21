@@ -12,6 +12,7 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: PROXIMANOVA, BEBASNEUE, Arial;
+  text-transform: uppercase;
 }
 
 .header,
