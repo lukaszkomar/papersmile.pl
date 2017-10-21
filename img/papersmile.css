@@ -2,12 +2,16 @@
   font-family: BEBASNEUE;
   src: url("BEBASNEUE.OTF") format("opentype");
 }
+@font-face {
+  font-family: PROXIMANOVA;
+  src: url("PROXIMA-NOVA.OTF") format("opentype");
+}
 
 /* Space out content a bit */
 body {
   padding-top: 20px;
   padding-bottom: 20px;
-  font-family: BEBASNEUE, Arial;
+  font-family: PROXIMANOVA, BEBASNEUE, Arial;
 }
 
 .header,
