@@ -1,8 +1,12 @@
 {% include header.html %}
 
 {% assign randomSets = site.sets | sample:3 %}
+
+r{{randomSets}}
+
 {% for set in randomSets %}
-*{{ set.title }}
+s{{set}}
+st{{ set.title }}
 {% endfor %}
 
     <div>
