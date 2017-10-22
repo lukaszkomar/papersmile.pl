@@ -3,8 +3,6 @@
 # Mind no '/' at the and of url
 url: papersmile.pl
 
-tmpUrl: https://lukaszkomar.github.io/papersmile.pl
-
 # Company name
 companyName: Paper Smile
 companyFullName: Paper Smile
