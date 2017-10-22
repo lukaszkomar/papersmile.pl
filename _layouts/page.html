@@ -18,13 +18,13 @@
     <div>
       <div class="row mb50">
         <div class="col-md-4 text-left"  >
-          <a href="zestaw-kart-1"><img src="{{page.tmpUrl}}/img/i1.jpg"></a>
+          <a href="{{page.tmpUrl}}/zestaw-kart-1"><img src="{{page.tmpUrl}}/img/i1.jpg"></a>
         </div>
         <div class="col-md-4 text-center">
-          <a href="zestaw-kart-2"><img src="{{page.tmpUrl}}/img/i2.jpg"></a>
+          <a href="{{page.tmpUrl}}/zestaw-kart-2"><img src="{{page.tmpUrl}}/img/i2.jpg"></a>
         </div>
         <div class="col-md-4 text-right" >
-          <a href="zestaw-kart-3"><img src="{{page.tmpUrl}}/img/i3.jpg"></a>
+          <a href="{{page.tmpUrl}}/zestaw-kart-3"><img src="{{page.tmpUrl}}/img/i3.jpg"></a>
         </div>
       </div>
     </div>
@@ -79,11 +79,11 @@
     <footer class="footer">
       <p>Copyright &copy; {{ site.time | date: '%Y' }} {{ site.companyFullName }}
 
-        {% assign min = 1 %}
-        {% assign max = 4 %}
+        {% assign min = 100 %}
+        {% assign max = 400 %}
         {% assign diff = max | minus: min %}
         {% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
-        #{{ randomNumber }}
+        #v1.{{ randomNumber }}
       </p>
     </footer>
 
