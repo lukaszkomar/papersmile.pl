@@ -36,11 +36,15 @@ body {
   text-align: center;
 }
 
+.navbar-collapse {
+  padding-right: 0;
+}
+
 .navbar-default {
   background-color: #fff;
   border-color: #fff;
 
-  font-size: 20px;  /*24 przy czcionce beba*/
+  font-size: 15px;  /*24 przy czcionce beba*/
 }
 .navbar-default .navbar-nav>li>a {
   color: #000;
@@ -56,6 +60,7 @@ body {
 a.social {
   display: block;
   margin-left: 10px;
+  margin-right: 0;
   height: 43px;
   width: 43px;
 }
