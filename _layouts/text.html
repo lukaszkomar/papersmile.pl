@@ -1,17 +1,5 @@
 {% include header.html %}
 
-<div class="container">
-
-  {% include navbar.html %}
-
-      <div class="jumbotron">
-        {{ content }}
-      </div>
-
-  <footer class="footer">
-    <p>Copyright &copy; {{ site.time | date: '%Y' }} {{ site.companyFullName }}</p>
-  </footer>
-
-</div> <!-- /container -->
+    <div class="row">{{ content }}</div>
 
 {% include footer.html %}

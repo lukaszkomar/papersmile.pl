@@ -1,20 +1,5 @@
 {% include header.html %}
 
-  <div class="container">
-
-{% include navbar.html %}
-
-<!--
-    <div class="jumbotron">
-      <h1>Karty do zdjec</h1>
-
-      {% if page.title == 404 %}
-      <h1>404 Nie znaleziono strony</h1>
-      {% endif %}
-
-      <p>{{ content }}</p>
-    </div>
--->
     <div>
       <div class="row mb50">
         <div class="col-md-4 text-left"  >
@@ -75,18 +60,5 @@
     <div class="text-right">
       <img src="{{site.tmpUrl}}/img/thing.jpg" />
     </div>
-
-    <footer class="footer">
-      <p>Copyright &copy; {{ site.time | date: '%Y' }} {{ site.companyFullName }}
-
-        {% assign min = 100 %}
-        {% assign max = 400 %}
-        {% assign diff = max | minus: min %}
-        {% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
-        #v1.{{ randomNumber }}
-      </p>
-    </footer>
-
-  </div> <!-- /container -->
         
 {% include footer.html %}
