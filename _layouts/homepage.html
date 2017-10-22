@@ -1,29 +1,16 @@
 {% include header.html %}
 
-{% assign randomSets = site.sets | sample:3 %}
-
-{{site.sets | sample:3}}
-<hr/>
-r{{randomSets}}
-<hr/>
-{% for set in randomSets %}
-s{{set}}
-<hr/>
-st{{ set.title }}
-<hr/>
-{% endfor %}
-
     <div>
       <div class="row mb50">
         <div class="col-md-4 text-left"  >
-          {% if 1 != randomNumber%}<a href="{{site.tmpUrl}}/zestaw-kart-1"><img src="{{site.tmpUrl}}/img/kpl-1-tease.jpg"></a>{% endif %}
-
+          <a href="{{site.tmpUrl}}/zestaw-kart-1"><img src="{{site.tmpUrl}}/img/kpl-1-tease.jpg"></a>
         </div>
         <div class="col-md-4 text-center">
-          {% if 1 != randomNumber%}<a href="{{site.tmpUrl}}/zestaw-kart-1"><img src="{{site.tmpUrl}}/img/kpl-1-tease.jpg"></a>{% endif %}
+          <a href="{{site.tmpUrl}}/zestaw-kart-2"><img src="{{site.tmpUrl}}/img/kpl-2-tease.jpg"></a>
         </div>
         <div class="col-md-4 text-right" >
-          {% if 1 != randomNumber%}<a href="{{site.tmpUrl}}/zestaw-kart-1"><img src="{{site.tmpUrl}}/img/kpl-1-tease.jpg"></a>{% endif %}
+          {% if 4 != randomNumber%}<a href="{{site.tmpUrl}}/zestaw-kart-3"><img src="{{site.tmpUrl}}/img/kpl-3-tease.jpg"></a>{% endif %}
+          {% if 4 == randomNumber%}<a href="{{site.tmpUrl}}/zestaw-kart-4"><img src="{{site.tmpUrl}}/img/kpl-4-tease.jpg"></a>{% endif %}
         </div>
       </div>
     </div>
