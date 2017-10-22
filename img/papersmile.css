@@ -59,8 +59,8 @@ body {
 
 a.social {
   display: block;
-  margin-left: 10px;
-  margin-right: 0;
+  margin-left: 10px !important;
+  margin-right: 0 !important;
   height: 43px;
   width: 43px;
 }
