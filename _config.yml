@@ -30,3 +30,14 @@ timezone: Europe/Warsaw
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:title/
+
+# Komplety
+sets:
+  "1":
+    "title": "kpl-1-tease.jpg"
+  "2":
+    "title": "kpl-2-tease.jpg"
+  "3":
+    "title": "kpl-3-tease.jpg"
+  "4":
+    "title": "kpl-4-tease.jpg"
