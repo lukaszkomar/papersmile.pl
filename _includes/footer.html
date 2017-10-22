@@ -2,12 +2,6 @@
   <footer class="footer">
     <p>
       Copyright &copy; {{ site.time | date: '%Y' }} {{ site.companyFullName }}
-
-      {% assign min = 1 %}
-      {% assign max = 4 %}
-      {% assign diff = max | minus: min %}
-      {% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
-      #v1.{{ randomNumber }}
     </p>
   </footer>
 

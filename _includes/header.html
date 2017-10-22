@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
+
+  {% assign min = 1 %}
+  {% assign max = 4 %}
+  {% assign diff = max | minus: min %}
+  {% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
+
   <meta charset="utf-8">
   <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 
@@ -21,7 +27,7 @@
   <link rel="shortcut icon" href="{{ site.tmpUrl}}/favicon.ico" />
 
   <link href="{{ site.tmpUrl}}/css/bootstrap.min.css" rel="stylesheet">
-  <link href="{{ site.tmpUrl}}/img/papersmile.css"    rel="stylesheet">
+  <link href="{{ site.tmpUrl}}/img/papersmile.css?r{{ randomNumber }}" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -34,3 +40,4 @@
   <div class="container">
 
 {% include navbar.html %}
+
