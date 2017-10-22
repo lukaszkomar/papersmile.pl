@@ -2,11 +2,15 @@
 
 {% assign randomSets = site.sets | sample:3 %}
 
+{{site.sets | sample:3}}
+<hr/>
 r{{randomSets}}
-
+<hr/>
 {% for set in randomSets %}
 s{{set}}
+<hr/>
 st{{ set.title }}
+<hr/>
 {% endfor %}
 
     <div>
