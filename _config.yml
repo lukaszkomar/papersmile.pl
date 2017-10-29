@@ -3,7 +3,7 @@
 # Mind no '/' at the and of url
 url: papersmile.pl
 
-tmpUrl: https://papersmile.pl
+tmpUrl: http://papersmile.pl
 
 # Company name
 companyName: Paper Smile
