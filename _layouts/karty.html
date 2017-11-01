@@ -1,0 +1,30 @@
+{% include header.html %}
+
+    <div class="row">
+        <div class="col-md-6">
+            <img src="/img/kpl-3-main.jpg" width="100%"/>
+        </div>
+        <div class="col-md-6">
+            <h1>{{ page.title }}.</h1>
+
+            <p>{{ page.mainP }}</p>
+
+            <h2>Jak to działa?</h2>
+
+            <p>{{ page.howP1 }}</p>
+
+            <p>{{ page.howP2 }}</p>
+
+            <a href="{{site.produkty.karty.moje-9-miesiecy.allegro}}" class="btn btn-default btn-lg active" role="button" target="_blank">
+                Kup {{site.produkty.karty.moje-9-miesiecy.cena}} zł
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        {{ content }}
+      </div>
+    </div>
+
+{% include footer.html %}
