@@ -41,3 +41,26 @@ sets:
     "title": "kpl-3-tease.jpg"
   "4":
     "title": "kpl-4-tease.jpg"
+
+produkty:
+  karty:
+    moje-9-miesiecy:
+      nazwa: moje-9-miesiecy
+      url: karty-do-zdjec-moje-9-miesiecy-ciaza
+      cena: 43.00
+      allegro: http://allegro.pl/karty-do-zdjec-moje-9-miesiecy-ciaza-i6944885530.html
+    pierwszy-rok-dziecka:
+      nazwa: pierwszy-rok-zycia-dziecka
+      url: karty-do-zdjec-pierwszy-rok-zycia-dziecka
+      cena: 42.00
+      allegro: http://allegro.pl/karty-do-zdjec-pierwszy-rok-zycia-dziecka-i6942636972.html
+    pierwszy-rok-prezent:
+      nazwa: pierwszy-rok-zycia-prezent
+      url: pierwszy-rok-zycia-prezent
+      cena: 45.00
+      allegro: http://allegro.pl/karty-do-zdjec-pierwszy-rok-zycia-prezent-i6992582584.html
+    pierwszy-rok-kontrastowe:
+      nazwa: pierwszy-rok-zycia kontrastowe-
+      nazwa: karty-do-zdjec-pierwszy-rok-zycia-kontrastowe
+      cena: 39.00
+      allegro: http://allegro.pl/kontrastowe-karty-do-zdjec-pierwszy-rok-zycia-i7009880037.html
