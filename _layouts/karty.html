@@ -3,12 +3,12 @@
     <div class="row">
         <div class="col-md-6">
             <img src="/img/{{ site.produkty.karty[page.configKey].img }}-glowne.jpg" width="100%"/>
-            <div class="row">
+            <div class="row mt10">
                 <div class="col-md-4">
-                    <img src="/img/{{ site.produkty.karty[page.configKey].img }}-glowne.jpg" width="100%"/>
+                    <img src="/img/{{ site.produkty.karty[page.configKey].img }}-glowne.jpg" width="100%" class="img-thumbnail"/>
                 </div>
                 <div class="col-md-4">
-                    <img src="/img/{{ site.produkty.karty[page.configKey].img }}-glowne.jpg" width="100%"/>
+                    <img src="/img/{{ site.produkty.karty[page.configKey].img }}-glowne.jpg" width="100%" class="img-thumbnail"/>
                 </div>
             </div>
         </div>
@@ -17,9 +17,16 @@
 
             <p>{{ site.produkty.karty[page.configKey].info }}</p>
 
-            <a href="{{site.produkty.karty[page.configKey].allegro}}" class="btn btn-default btn-lg" role="button" target="_blank">
+            <h2>Jak to działa?</h2>
+
+            <p>{{ site.produkty.karty[page.configKey].howItWorksParagraphA }}</p>
+            <p>{{ site.produkty.karty[page.configKey].howItWorksParagraphB }}</p>
+
+            <p class="text-center">
+              <a href="{{site.produkty.karty[page.configKey].allegro}}" class="btn btn-default btn-lg" role="button" target="_blank">
                 Kup teraz za {{site.produkty.karty[page.configKey].price}} zł
-            </a>
+              </a>
+            </p>
         </div>
     </div>
 
