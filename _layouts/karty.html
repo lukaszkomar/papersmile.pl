@@ -10,19 +10,22 @@
                 <div class="col-md-4">
                     <img src="/img/{{ site.produkty.karty[page.configKey].img }}-glowne.jpg" width="100%" class="img-thumbnail"/>
                 </div>
+                <div class="col-md-4">
+                    <img src="/img/{{ site.produkty.karty[page.configKey].img }}-glowne.jpg" width="100%" class="img-thumbnail"/>
+                </div>
             </div>
         </div>
         <div class="col-md-6">
             <h1>{{ site.produkty.karty[page.configKey].header }}</h1>
 
-            <p>{{ site.produkty.karty[page.configKey].info }}</p>
+            <p class="text-justify">{{ site.produkty.karty[page.configKey].info }}</p>
 
             <h2>Jak to działa?</h2>
 
-            <p>{{ site.produkty.karty[page.configKey].howItWorksParagraphA }}</p>
-            <p>{{ site.produkty.karty[page.configKey].howItWorksParagraphB }}</p>
+            <p class="text-justify">{{ site.produkty.karty[page.configKey].howItWorksParagraphA }}</p>
+            <p class="text-justify">{{ site.produkty.karty[page.configKey].howItWorksParagraphB }}</p>
 
-            <p class="text-center">
+            <p class="text-center mt50">
               <a href="{{site.produkty.karty[page.configKey].allegro}}" class="btn btn-default btn-lg" role="button" target="_blank">
                 Kup teraz za {{site.produkty.karty[page.configKey].price}} zł
               </a>
