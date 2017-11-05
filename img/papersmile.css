@@ -97,13 +97,13 @@ a.instagram {
 /* Karty */
 
 .karty-box-column:nth-child(1) {
-  background: red;
+  text-align: left;
 }
 .karty-box-column:nth-child(2) {
-  background: green;
+  text-align: center;
 }
 .karty-box-column:nth-child(3) {
-  background: blue;
+  text-align: right;
 }
 
 @media screen and (min-width: 768px) {
