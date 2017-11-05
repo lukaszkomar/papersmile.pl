@@ -14,6 +14,8 @@
 .mb50 { margin-bottom: 50px; }
 .p0   { padding: 0; }
 
+h1 { font-size: 32px; }
+
 /* Space out content a bit */
 body {
   padding-top: 20px;
