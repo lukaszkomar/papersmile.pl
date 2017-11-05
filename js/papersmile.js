@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('#karty-img .img-thumbnail')..click(function() {
+    $('#karty-img .img-thumbnail').click(function() {
 
 
         console.log('c');
