@@ -19,11 +19,9 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: PROXIMANOVA, BEBASNEUE, Arial;
-  text-transform: uppercase;
 }
 
 .header,
-.marketing,
 .footer {
   padding-right: 15px;
   padding-left: 15px;
@@ -48,8 +46,8 @@ body {
 .navbar-default {
   background-color: #fff;
   border-color: #fff;
-
-  font-size: 17px;  /*24 przy czcionce beba*/
+  font-size: 18px;  /*24 przy czcionce beba*/
+  text-transform: uppercase;
 }
 .navbar-default .navbar-nav>li>a {
   color: #000;
