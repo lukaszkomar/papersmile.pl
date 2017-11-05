@@ -97,13 +97,13 @@ a.instagram {
 /* Karty */
 
 .karty-box-column:nth-child(1) {
-  text-align: left;
+  text-align: center;
 }
 .karty-box-column:nth-child(2) {
   text-align: center;
 }
 .karty-box-column:nth-child(3) {
-  text-align: right;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -130,7 +130,19 @@ a.instagram {
   .logo img {
 	  height: 180px;
   }
-  
+
+  /* Karty */
+
+  .karty-box-column:nth-child(1) {
+    text-align: left;
+  }
+  .karty-box-column:nth-child(2) {
+    text-align: center;
+  }
+  .karty-box-column:nth-child(3) {
+    text-align: right;
+  }
+
 }
 
 /* Medium devices (desktops, 992px and up) */
