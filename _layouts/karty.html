@@ -1,45 +1,49 @@
 {% include header.html %}
 
-    <div class="row">
+<div class="row">
 
-        <div class="col-md-6">
-            <img src="/img/{{ site.produkty.karty[page.configKey].img }}-glowne.jpg" width="100%"/>
-            <div class="row mt10">
-                <div class="col-md-4">
-                    <img src="/img/{{ site.produkty.karty[page.configKey].img }}-wszystkie.jpg" width="100%" class="img-thumbnail"/>
-                </div>
-                <div class="col-md-4">
-                    <img src="/img/{{ site.produkty.karty[page.configKey].img }}-glowne.jpg" width="100%" class="img-thumbnail"/>
-                </div>
-                <div class="col-md-4">
-                    <img src="/img/{{ site.produkty.karty[page.configKey].img }}-glowne.jpg" width="100%" class="img-thumbnail"/>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <h1 class="mt0">{{ site.produkty.karty[page.configKey].header }}</h1>
-
-            {% if site.produkty.karty[page.configKey].infoParagraphA %}<p class="text-justify">{{ site.produkty.karty[page.configKey].infoParagraphA }}</p>{% endif %}
-            {% if site.produkty.karty[page.configKey].infoParagraphB %}<p class="text-justify">{{ site.produkty.karty[page.configKey].infoParagraphB }}</p>{% endif %}
-            {% if site.produkty.karty[page.configKey].infoParagraphC %}<p class="text-justify">{{ site.produkty.karty[page.configKey].infoParagraphC }}</p>{% endif %}
-
-            <h2 class="mt0">Jak to działa?</h2>
-
-            {% if site.produkty.karty[page.configKey].howItWorksParagraphA %}<p class="text-justify">{{ site.produkty.karty[page.configKey].howItWorksParagraphA }}</p>{% endif %}
-            {% if site.produkty.karty[page.configKey].howItWorksParagraphB %}<p class="text-justify">{{ site.produkty.karty[page.configKey].howItWorksParagraphB }}</p>{% endif %}
-
-            <p class="text-center mt25">
-              <a href="{{site.produkty.karty[page.configKey].allegro}}" class="btn btn-default btn-lg" role="button" target="_blank">
-                Kup teraz za {{site.produkty.karty[page.configKey].price}} zł
-              </a>
-            </p>
-        </div>
+  <div class="col-md-6">
+    <img src="/img/{{ site.produkty.karty[page.configKey].img }}-glowne.jpg" width="100%"/>
+    <div class="row mt10">
+      <div class="col-md-4">
+        <img src="/img/{{ site.produkty.karty[page.configKey].img }}-wszystkie.jpg" width="100%" class="img-thumbnail"/>
+      </div>
+      <div class="col-md-4">
+        <img src="/img/{{ site.produkty.karty[page.configKey].img }}-glowne.jpg" width="100%" class="img-thumbnail"/>
+      </div>
+      <div class="col-md-4">
+        <img src="/img/{{ site.produkty.karty[page.configKey].img }}-glowne.jpg" width="100%" class="img-thumbnail"/>
+      </div>
     </div>
+  </div>
+  <div class="col-md-6">
+    <h1 class="mt0">{{ site.produkty.karty[page.configKey].header }}</h1>
+
+    {% if site.produkty.karty[page.configKey].infoParagraphA %}<p class="text-justify">{{ site.produkty.karty[page.configKey].infoParagraphA }}</p>{% endif %}
+    {% if site.produkty.karty[page.configKey].infoParagraphB %}<p class="text-justify">{{ site.produkty.karty[page.configKey].infoParagraphB }}</p>{% endif %}
+    {% if site.produkty.karty[page.configKey].infoParagraphC %}<p class="text-justify">{{ site.produkty.karty[page.configKey].infoParagraphC }}</p>{% endif %}
+
+    <h2 class="mt0">Jak to działa?</h2>
+
+    {% if site.produkty.karty[page.configKey].howItWorksParagraphA %}<p class="text-justify">{{ site.produkty.karty[page.configKey].howItWorksParagraphA }}</p>{% endif %}
+    {% if site.produkty.karty[page.configKey].howItWorksParagraphB %}<p class="text-justify">{{ site.produkty.karty[page.configKey].howItWorksParagraphB }}</p>{% endif %}
+
+    <p class="text-center mt25">
+      <a href="{{site.produkty.karty[page.configKey].allegro}}" class="btn btn-default btn-lg" role="button" target="_blank">
+        Kup teraz za {{site.produkty.karty[page.configKey].price}} zł
+      </a>
+    </p>
+  </div>
+</div>
 
 <ul class="nav nav-tabs">
     <li role="opis" class="active"><a href="#">Opis</a></li>
 </ul>
 
 {{ content }}
+
+<hr>
+
+{% include karty-podobne-produkty.html %}
 
 {% include footer.html %}
