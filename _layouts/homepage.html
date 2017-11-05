@@ -28,6 +28,13 @@
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
+
+        {% for karta in site.produkty.karty %}
+          <div class="item">
+            <a href="{{ karta[1].url}}"><img src="/img/{{ karta[1].img }}-karuzela.png " width="100%"></a>
+          </div>
+        {% endfor %}
+
         <div class="item active">
           <img src="/img/karty-do-zdjec-pierwszy-rok-zycia-dziecka-zwierzeta-39-kart-karuzela.png" width="100%" />
           <!--
