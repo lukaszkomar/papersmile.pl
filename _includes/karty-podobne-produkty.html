@@ -28,10 +28,11 @@
   {% for karta in site.produkty.karty %}
 
     #{{ karta.key }}#
-    #{{ karta[key] }}#
+    {{ karta.header }}
+    {{ karta.url }}
 
   {% if page.configKey != karta.key %}
-    |{{ karta.key }}|
+    [{{ karta.header }}]
   {% endif %}
 
   {% endfor %}
