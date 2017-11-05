@@ -25,8 +25,13 @@
   </div>
   {% endif %}
 
-  {% for karty in produkty.karty %}
-    #{{ karty }}
+  {% for karty in site.produkty.karty %}
+    #{{ karty.key }}
+  x
+  {% if page.configKey != karty.key %}
+  x
+  {% endif %}
+  {{ karty.key }}
   {% endfor %}
 
 </div>

@@ -45,6 +45,7 @@ sets:
 produkty:
   karty:
     moje-9-miesiecy:
+      key: moje-9-miesiecy
       nazwa: Karty do zdjęć Moje 9 miesięcy ciąża
       header: Karty do zdjęć Moje 9 miesięcy ciąża
       infoParagraphA: Zestaw unikalnych i niepowtarzalnych kart do zdjęć, dzięki którym uda się zachować najpiękniejsze chwile z okresu ciąży.
@@ -57,6 +58,7 @@ produkty:
       price: "43.00"
       allegro: http://allegro.pl/karty-do-zdjec-moje-9-miesiecy-ciaza-i6944885530.html
     pierwszy-rok-zwierzeta-39:
+      key: pierwszy-rok-zwierzeta-39
       nazwa: Karty do zdjęć Pierwszy rok życia dziecka Zwierzęta 39 kart
       header: Karty do zdjęć Pierwszy rok życia dziecka Zwierzęta 39 kart
       infoParagraphA: Zestaw unikalnych i niepowtarzalnych kart do zdjęć, dzięki którym uda się zachować najpiękniejsze chwile w życiu każdego dziecka.
@@ -69,6 +71,7 @@ produkty:
       price: "42.00"
       allegro: http://allegro.pl/karty-do-zdjec-pierwszy-rok-zycia-dziecka-i6942636972.html
     pierwszy-rok-zwierzeta-43:
+      key: pierwszy-rok-zwierzeta-43
       nazwa: Karty do zdjęć Pierwszy rok życia dziecka Zwierzęta 43 karty
       header: Karty do zdjęć Pierwszy rok życia dziecka Zwierzęta 43 karty
       infoParagraphA: Zestaw unikalnych i niepowtarzalnych kart do zdjęć, dzięki którym uda się zachować najpiękniejsze chwile w życiu każdego dziecka.
@@ -81,6 +84,7 @@ produkty:
       price: "45.00"
       allegro: http://allegro.pl/karty-do-zdjec-pierwszy-rok-zycia-prezent-i6992582584.html
     pierwszy-rok-kontrastowe:
+      key: pierwszy-rok-kontrastowe
       nazwa: Karty do zdjęć Pierwszy rok życia dziecka Kontrastowe
       header: Karty do zdjęć Pierwszy rok życia dziecka Kontrastowe
       infoParagraphA: Zestaw unikalnych i niepowtarzalnych kart do zdjęć, dzięki którym uda się zachować najpiękniejsze chwile w życiu każdego dziecka.
