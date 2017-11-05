@@ -27,13 +27,13 @@
 
   {% for karta in site.produkty.karty %}
 
+  {{ karta.key }}
+
   {% if page.configKey == karta.key %}
     [{{ karta.header }}]
   {% endif %}
 
   {% endfor %}
-
-  {{site.produkty.karty}}
 
 </div>
 
