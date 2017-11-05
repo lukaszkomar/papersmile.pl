@@ -96,13 +96,13 @@ a.instagram {
 
 /* Karty */
 
-.podobne-karty:nth-child(1) {
+.karty-box-column:nth-child(1) {
   background: red;
 }
-.podobne-karty:nth-child(2) {
+.karty-box-column:nth-child(2) {
   background: green;
 }
-.podobne-karty:nth-child(3) {
+.karty-box-column:nth-child(3) {
   background: blue;
 }
 
