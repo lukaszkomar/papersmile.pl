@@ -94,6 +94,18 @@ a.instagram {
   margin: auto !important;
 }
 
+/* Karty */
+
+.podobne-karty:nth-child(1) {
+  background: red;
+}
+.podobne-karty:nth-child(2) {
+  background: green;
+}
+.podobne-karty:nth-child(3) {
+  background: blue;
+}
+
 @media screen and (min-width: 768px) {
 
   .container {
