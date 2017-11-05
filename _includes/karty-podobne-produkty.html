@@ -27,9 +27,7 @@
 
   {% for karta in site.produkty.karty %}
 
-  {{karta}}
-
-  {% if page.configKey != karta.key %}
+  {% if page.configKey == karta.key %}
     [{{ karta.header }}]
   {% endif %}
 
