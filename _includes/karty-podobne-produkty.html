@@ -26,9 +26,9 @@
   {% endif %}
 
   {% for karta in site.produkty.karty %}
-  {{karta}}
-
+  
     #{{ karta.key }}#
+    #{{ karta[key] }}#
 
   {% if page.configKey != karta.key %}
     |{{ karta.key }}|
