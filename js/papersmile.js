@@ -3,8 +3,8 @@ $(document).ready(function() {
 
 
         console.log('c');
-        console.log($(this).getAttribute('src'));
+        console.log($(this).attr('src'));
 
-        //$('#img-big').setAttribute('src', 'val');
+        //$('#img-big').attr('src', 'val');
     });
 });
