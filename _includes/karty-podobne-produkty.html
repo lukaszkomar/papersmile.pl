@@ -25,11 +25,13 @@
   </div>
   {% endif %}
 
-  {% for karty in site.produkty.karty %}
-    #{{ karty.key }}#
+  {% for karta in site.produkty.karty %}
+  {{karta}}
 
-  {% if page.configKey != karty.key %}
-    |{{ karty.key }}|
+    #{{ karta.key }}#
+
+  {% if page.configKey != karta.key %}
+    |{{ karta.key }}|
   {% endif %}
 
   {% endfor %}
