@@ -1,0 +1,44 @@
+{% include header.html %}
+
+<div class="row">
+
+  <div class="col-md-6" id="karty-img">
+    <img src="/img/{{ site.produkty.plakaty[page.configKey].img }}-glowne.jpg" width="100%" id="img-big" />
+    <div class="row mt10">
+      <div class="col-md-4">
+        <img src="/img/{{ site.produkty.plakaty[page.configKey].img }}-glowne.jpg" width="100%" class="img-thumbnail"/>
+      </div>
+      <div class="col-md-4">
+        <img src="/img/{{ site.produkty.plakaty[page.configKey].img }}-glowne.jpg" width="100%" class="img-thumbnail"/>
+      </div>
+      <div class="col-md-4">
+        <img src="/img/{{ site.produkty.plakaty[page.configKey].img }}-glowne.jpg" width="100%" class="img-thumbnail"/>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <h1 class="mt0">{{ site.produkty.plakaty[page.configKey].header }}</h1>
+
+    {% if site.produkty.plakaty[page.configKey].infoParagraphA %}<p class="text-justify">{{ site.produkty.plakaty[page.configKey].infoParagraphA }}</p>{% endif %}
+    {% if site.produkty.plakaty[page.configKey].infoParagraphB %}<p class="text-justify">{{ site.produkty.plakaty[page.configKey].infoParagraphB }}</p>{% endif %}
+    {% if site.produkty.plakaty[page.configKey].infoParagraphC %}<p class="text-justify">{{ site.produkty.plakaty[page.configKey].infoParagraphC }}</p>{% endif %}
+
+    <!--<h2 class="mt0">Jak to działa?</h2>-->
+
+    {% if site.produkty.plakaty[page.configKey].howItWorksParagraphA %}<p class="text-justify">{{ site.produkty.plakaty[page.configKey].howItWorksParagraphA }}</p>{% endif %}
+    {% if site.produkty.plakaty[page.configKey].howItWorksParagraphB %}<p class="text-justify">{{ site.produkty.plakaty[page.configKey].howItWorksParagraphB }}</p>{% endif %}
+
+  </div>
+</div>
+
+<ul class="nav nav-tabs">
+    <li role="opis" class="active"><a href="#">Opis</a></li>
+</ul>
+
+{{ content }}
+
+<hr>
+
+{% include karty-podobne-produkty.html %}
+
+{% include footer.html %}
