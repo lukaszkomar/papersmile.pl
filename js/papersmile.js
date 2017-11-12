@@ -4,35 +4,8 @@ $(document).ready(function() {
         $('#img-big').attr('src', $(this).attr('src'));
     });
 
+    reloadSets('#homepage-karta-', 1, 4);
+    reloadSets('#homepage-plakat-', 1, 4);
 
-
-    /**
-     * Losowe zestawy
-     */
-    var reloadSets = function() {
-
-        var min = 1,
-            max = 4,
-            randNumber =  Math.floor(Math.random() * (max - min) + min + 0.9)
-            ;
-
-        console.log('reloadSets', min, max, randNumber);
-
-        $.each([ 1, 2, 3, 4], function( index, setId ) {
-
-            if (setId == randNumber) {
-                $('#homepage-plakat-' + setId).hide();
-            } else {
-                $('#homepage-plakat-' + setId).show();
-            }
-        });
-    };
-
-
-    reloadSets(); //pierwsze losowanie
-
-    /**
-     * Losowe foty mustsee
-     */
-    window.setInterval(reloadSets, 60 * 1000); // every 60 sec
+    //window.setInterval(reloadSets, 60 * 1000); // every 60 sec
 });
