@@ -29,6 +29,8 @@ $(document).ready(function() {
     };
 
 
+    reloadSets(); //pierwsze losowanie
+
     /**
      * Losowe foty mustsee
      */
