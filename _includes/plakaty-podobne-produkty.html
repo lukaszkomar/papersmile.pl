@@ -10,7 +10,7 @@
   {% for plakat in site.produkty.plakaty %}
     {% if page.configKey != plakat[0] %}
       <div class="col-md-4 karty-box-column">
-        <a href="{{ plakat[1].url}}"><img src="/{{ plakat[1].imgSrcPrefix }}-glowne.jpg"></a>
+        <a href="{{ plakat[1].url}}"><img src="{{ plakat[1].imgSrcPrefix }}-glowne.jpg"></a>
       </div>
     {% endif %}
   {% endfor %}
