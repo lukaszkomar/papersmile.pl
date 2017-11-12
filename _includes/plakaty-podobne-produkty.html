@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-md-12">
+    <h2>Podobne produkty:</h2>
+  </div>
+</div>
+<div class="row">
+
+  {% comment %} Iteruje po wszystkich, i wyklucza ten o ktorym jest dana strona - czyli pokazuje wszystkie pozostale {% endcomment %}
+
+  {% for plakat in site.produkty.plakaty %}
+    {% if page.configKey != plakat[0] %}
+      <div class="col-md-4 karty-box-column">
+        <a href="{{ plakat[1].url}}"><img src="/{{ plakat[1].imgSrcPrefix }}-glowne.jpg"></a>
+      </div>
+    {% endif %}
+  {% endfor %}
+
+</div>
+
