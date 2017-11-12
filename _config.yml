@@ -107,6 +107,45 @@ produkty:
       howItWorksParagraphA:
       howItWorksParagraphB:
       url: /plakat-jelenie
-      img: plakaty/plakat-jelenie
+      imgSrcPrefix: /img/plakaty/plakat-jelenie
+      price:
+      allegro:
+    kosmos:
+      key: kosmos
+      nazwa: Plakat Kosmos
+      header: Plakat Kosmos
+      infoParagraphA: Plakat.
+      infoParagraphB:
+      infoParagraphC:
+      howItWorksParagraphA:
+      howItWorksParagraphB:
+      url: /plakat-kosmos
+      imgSrcPrefix: /img/plakaty/plakat-kosmos
+      price:
+      allegro:
+    kosmos-alfabet:
+      key: kosmos-alfabet
+      nazwa: Plakat Kosmos Alfabet
+      header: Plakat Kosmos Alfabet
+      infoParagraphA: Plakat.
+      infoParagraphB:
+      infoParagraphC:
+      howItWorksParagraphA:
+      howItWorksParagraphB:
+      url: /plakat-kosmos-alfabet
+      imgSrcPrefix: /img/plakaty/plakat-kosmos-alfabet
+      price:
+      allegro:
+    jelenie:
+      key: samochody
+      nazwa: Plakat Samochody
+      header: Plakat Samochody
+      infoParagraphA: Plakat.
+      infoParagraphB:
+      infoParagraphC:
+      howItWorksParagraphA:
+      howItWorksParagraphB:
+      url: /plakat-samochody
+      imgSrcPrefix: /img/plakaty/plakat-samochody
       price:
       allegro:
