@@ -2,6 +2,12 @@
 
     <div>
       <div class="row mb50">
+        Karty do zdjęć:
+      </div>
+    </div>
+
+    <div>
+      <div class="row mb50">
         {% for karta in site.produkty.karty %}
         <div class="col-md-4 karty-box-column" id="homepage-karta-{{ forloop.index }}"  {% if forloop.index > 3 %}style="display: none;"{% endif %}>
           <a href="{{ karta[1].url}}">
@@ -15,6 +21,12 @@
 
     <div>
       <div class="row mb50">
+        Plakaty edukacyjne dla dzieci:
+      </div>
+    </div>
+
+    <div>
+      <div class="row mb50">
         {% for plakat in site.produkty.plakaty %}
         <div class="col-md-4 karty-box-column" id="homepage-plakat-{{ forloop.index }}"  {% if forloop.index > 3 %}style="display: none;"{% endif %}>
           <a href="{{ plakat[1].url}}">
@@ -23,6 +35,12 @@
           <div class="text-right"><img src="/img/thing.jpg" /></div>
         </div>
         {% endfor %}
+      </div>
+    </div>
+
+    <div>
+      <div class="row mb50">
+        Nasze produkty:
       </div>
     </div>
 
