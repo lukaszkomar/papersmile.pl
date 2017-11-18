@@ -44,20 +44,6 @@ sets:
 
 produkty:
   karty:
-    moje-9-miesiecy:
-      key: moje-9-miesiecy
-      nazwa: Karty do zdjęć Moje 9 miesięcy ciąża
-      header: Karty do zdjęć - Moje 9 miesięcy <br/>Ciąża 40 kart
-      infoParagraphA: Zestaw unikalnych i niepowtarzalnych kart do zdjęć, dzięki którym uda się zachować najpiękniejsze chwile z okresu ciąży.
-      infoParagraphB:
-      infoParagraphC:
-      howItWorksParagraphA: Zrób zdjęcie, a tył karty uzupełnij o ważne informacje i zachowaj. Piękna i ciekawa pamiątka – gotowa!
-      howItWorksParagraphB: Karty do zdjęć na okres ciąży, to wyjątkowa oraz ciekawa propozycja na prezent dla każdej przyszłej mamy.
-      url: /karty-do-zdjec-moje-9-miesiecy-ciaza
-      img: karty-do-zdjec-moje-9-miesiecy-ciaza
-      imgSrcPrefix: /img/karty-do-zdjec-moje-9-miesiecy-ciaza
-      price: "43.00"
-      allegro: http://allegro.pl/karty-do-zdjec-moje-9-miesiecy-ciaza-i6944885530.html
     pierwszy-rok-zwierzeta-39:
       key: pierwszy-rok-zwierzeta-39
       nazwa: Karty do zdjęć Pierwszy rok życia dziecka Zwierzęta 39 kart
@@ -86,6 +72,20 @@ produkty:
       imgSrcPrefix: /img/karty-do-zdjec-pierwszy-rok-zycia-dziecka-zwierzeta-43-karty
       price: "45.00"
       allegro: http://allegro.pl/karty-do-zdjec-pierwszy-rok-zycia-prezent-i6992582584.html
+    moje-9-miesiecy:
+      key: moje-9-miesiecy
+      nazwa: Karty do zdjęć Moje 9 miesięcy ciąża
+      header: Karty do zdjęć - Moje 9 miesięcy <br/>Ciąża 40 kart
+      infoParagraphA: Zestaw unikalnych i niepowtarzalnych kart do zdjęć, dzięki którym uda się zachować najpiękniejsze chwile z okresu ciąży.
+      infoParagraphB:
+      infoParagraphC:
+      howItWorksParagraphA: Zrób zdjęcie, a tył karty uzupełnij o ważne informacje i zachowaj. Piękna i ciekawa pamiątka – gotowa!
+      howItWorksParagraphB: Karty do zdjęć na okres ciąży, to wyjątkowa oraz ciekawa propozycja na prezent dla każdej przyszłej mamy.
+      url: /karty-do-zdjec-moje-9-miesiecy-ciaza
+      img: karty-do-zdjec-moje-9-miesiecy-ciaza
+      imgSrcPrefix: /img/karty-do-zdjec-moje-9-miesiecy-ciaza
+      price: "43.00"
+      allegro: http://allegro.pl/karty-do-zdjec-moje-9-miesiecy-ciaza-i6944885530.html
     pierwszy-rok-kontrastowe:
       key: pierwszy-rok-kontrastowe
       nazwa: Karty do zdjęć Pierwszy rok życia dziecka Kontrastowe
