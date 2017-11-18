@@ -55,6 +55,7 @@ produkty:
       howItWorksParagraphB: Karty do zdjęć na okres ciąży, to wyjątkowa oraz ciekawa propozycja na prezent dla każdej przyszłej mamy.
       url: /karty-do-zdjec-moje-9-miesiecy-ciaza
       img: karty-do-zdjec-moje-9-miesiecy-ciaza
+      imgSrcPrefix: /img/karty-do-zdjec-moje-9-miesiecy-ciaza
       price: "43.00"
       allegro: http://allegro.pl/karty-do-zdjec-moje-9-miesiecy-ciaza-i6944885530.html
     pierwszy-rok-zwierzeta-39:
@@ -68,6 +69,7 @@ produkty:
       howItWorksParagraphB: Karty do zdjęć na pierwszy rok życia, to wyjątkowa oraz ciekawa propozycja na prezent dla każdej przyszłej mamy.
       url: /karty-do-zdjec-pierwszy-rok-zycia-dziecka-zwierzeta-39-kart
       img: karty-do-zdjec-pierwszy-rok-zycia-dziecka-zwierzeta-39-kart
+      imgSrcPrefix: /img/karty-do-zdjec-pierwszy-rok-zycia-dziecka-zwierzeta-39-kart
       price: "42.00"
       allegro: http://allegro.pl/karty-do-zdjec-pierwszy-rok-zycia-dziecka-i6942636972.html
     pierwszy-rok-zwierzeta-43:
@@ -81,6 +83,7 @@ produkty:
       howItWorksParagraphB: Karty do zdjęć na pierwszy rok życia, to wyjątkowa oraz ciekawa propozycja na prezent dla każdej przyszłej mamy.
       url: /karty-do-zdjec-pierwszy-rok-zycia-dziecka-zwierzeta-43-karty
       img: karty-do-zdjec-pierwszy-rok-zycia-dziecka-zwierzeta-43-karty
+      imgSrcPrefix: /img/karty-do-zdjec-pierwszy-rok-zycia-dziecka-zwierzeta-43-karty
       price: "45.00"
       allegro: http://allegro.pl/karty-do-zdjec-pierwszy-rok-zycia-prezent-i6992582584.html
     pierwszy-rok-kontrastowe:
@@ -94,6 +97,7 @@ produkty:
       howItWorksParagraphB:
       url: /karty-do-zdjec-pierwszy-rok-zycia-dziecka-kontrastowe
       img: karty-do-zdjec-pierwszy-rok-zycia-dziecka-kontrastowe
+      imgSrcPrefix: /img/karty-do-zdjec-pierwszy-rok-zycia-dziecka-kontrastowe
       price: "39.00"
       allegro: http://allegro.pl/kontrastowe-karty-do-zdjec-pierwszy-rok-zycia-i7009880037.html
   plakaty:
