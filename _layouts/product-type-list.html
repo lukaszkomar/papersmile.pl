@@ -1,0 +1,24 @@
+{% include header.html %}
+
+<div>
+{% for item in site.produkty[page.configProductTypeKey] %}
+
+  {% if forloop.index == 1 || forloop.index == 3 %}
+  <div class="row mb50">
+  {% endif %}>
+
+    <div class="col-md-6">
+      <a href="{{ item[1].url}}">
+        <img src="{{ item[1].imgSrcPrefix}}-box.jpg" width="100%">
+      </a>
+      <div class="text-right"><img src="/img/thing.jpg" /></div>
+    </div>
+
+  {% if forloop.index == 2 || forloop.index == 4 %}
+  </div>
+  {% endif %}>
+
+{% endfor %}
+</div>
+
+{% include footer.html %}

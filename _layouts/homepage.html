@@ -2,64 +2,6 @@
 
     <div>
       <div class="row mb50">
-        <div class="col-md-4 karty-box-column" id="homepage-karta-1">
-          <a href="{{site.produkty.karty.pierwszy-rok-zwierzeta-39.url}}">
-            <img src="{{site.produkty.karty.pierwszy-rok-zwierzeta-39.imgSrcPrefix}}-box.jpg" width="100%">
-          </a>
-          <div class="text-right"><img src="/img/thing.jpg" /></div>
-        </div>
-        <div class="col-md-4 karty-box-column" id="homepage-karta-2">
-          <a href="{{site.produkty.karty.pierwszy-rok-zwierzeta-43.url}}">
-            <img src="{{site.produkty.karty.pierwszy-rok-zwierzeta-43.imgSrcPrefix}}-box.jpg" width="100%">
-          </a>
-          <div class="text-right"><img src="/img/thing.jpg" /></div>
-        </div>
-        <div class="col-md-4 karty-box-column" id="homepage-karta-3">
-          <a href="{{site.produkty.karty.moje-9-miesiecy.url}}">
-            <img src="{{site.produkty.karty.moje-9-miesiecy.imgSrcPrefix}}-box.jpg" width="100%">
-          </a>
-          <div class="text-right"><img src="/img/thing.jpg" /></div>
-        </div>
-        <div class="col-md-4 karty-box-column" id="homepage-karta-4" style="display: none;">
-          <a href="{{site.produkty.karty.pierwszy-rok-kontrastowe.url}}">
-            <img src="{{site.produkty.karty.pierwszy-rok-kontrastowe.imgSrcPrefix}}-box.jpg" width="100%">
-          </a>
-          <div class="text-right"><img src="/img/thing.jpg" /></div>
-        </div>
-      </div>
-    </div>
-
-    <div>
-      <div class="row mb50">
-        <div class="col-md-4 karty-box-column" id="homepage-plakat-1">
-          <a href="{{site.produkty.plakaty.jelenie.url}}">
-            <img src="{{site.produkty.plakaty.jelenie.imgSrcPrefix}}-glowne.jpg" width="100%">
-          </a>
-          <div class="text-right"><img src="/img/thing.jpg" /></div>
-        </div>
-        <div class="col-md-4 karty-box-column" id="homepage-plakat-2">
-          <a href="{{site.produkty.plakaty.kosmos-liczby.url}}">
-            <img src="{{site.produkty.plakaty.kosmos-liczby.imgSrcPrefix}}-glowne.jpg" width="100%">
-          </a>
-          <div class="text-right"><img src="/img/thing.jpg" /></div>
-        </div>
-        <div class="col-md-4 karty-box-column" id="homepage-plakat-3">
-          <a href="{{site.produkty.plakaty.kosmos-alfabet.url}}">
-            <img src="{{site.produkty.plakaty.kosmos-alfabet.imgSrcPrefix}}-glowne.jpg" width="100%">
-          </a>
-          <div class="text-right"><img src="/img/thing.jpg" /></div>
-        </div>
-        <div class="col-md-4 karty-box-column" id="homepage-plakat-4" style="display: none;">
-          <a href="{{site.produkty.plakaty.samochody.url}}">
-            <img src="{{site.produkty.plakaty.samochody.imgSrcPrefix}}-glowne.jpg" width="100%">
-          </a>
-          <div class="text-right"><img src="/img/thing.jpg" /></div>
-        </div>
-      </div>
-    </div>
-
-    <div>
-      <div class="row mb50">
         {% for karta in site.produkty.karty %}
         <div class="col-md-4 karty-box-column" id="homepage-karta-{{ forloop.index }}"  {% if forloop.index > 3 %}style="display: none;"{% endif %}>
           <a href="{{ karta[1].url}}">
