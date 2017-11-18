@@ -58,18 +58,28 @@
       </div>
     </div>
 
-    TEST
     <div>
       <div class="row mb50">
-        {% for plakat in site.produkty.plakaty %}
-        {% if page.configKey != plakat[0] %}
-        <div class="col-md-4 karty-box-column" id="homepage-plakat-{{ forloop.index }}"  {% if forloop.index > 3 %}style="display: none;"{% endif %}>
-          <a href="{{ plakat[1].url}}">
-            <img src="{{ plakat[1].imgSrcPrefix }}-box.jpg" width="100%">
+        {% for karta in site.produkty.karty %}
+        <div class="col-md-4 karty-box-column" id="homepage-karta-{{ forloop.index }}"  {% if forloop.index > 3 %}style="display: none;"{% endif %}>
+          <a href="{{ karta[1].url}}">
+            <img src="{{ karta[1].imgSrcPrefix }}-box.jpg" width="100%">
           </a>
           <div class="text-right"><img src="/img/thing.jpg" /></div>
         </div>
-        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+
+    <div>
+      <div class="row mb50">
+        {% for plakat in site.produkty.plakaty %}
+        <div class="col-md-4 karty-box-column" id="homepage-plakat-{{ forloop.index }}"  {% if forloop.index > 3 %}style="display: none;"{% endif %}>
+          <a href="{{ plakat[1].url}}">
+            <img src="{{ plakat[1].imgSrcPrefix }}-glowne.jpg" width="100%">
+          </a>
+          <div class="text-right"><img src="/img/thing.jpg" /></div>
+        </div>
         {% endfor %}
       </div>
     </div>
