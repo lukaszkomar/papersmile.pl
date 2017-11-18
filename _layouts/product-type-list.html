@@ -3,7 +3,7 @@
 <div>
 {% for item in site.produkty[page.configProductTypeKey] %}
 
-  {% if forloop.index == 1 || forloop.index == 3 %}
+  {% if forloop.index == 1 OR forloop.index == 3 %}
   <div class="row mb50">
   {% endif %}
 
@@ -14,7 +14,7 @@
       <div class="text-right"><img src="/img/thing.jpg" /></div>
     </div>
 
-  {% if forloop.index == 2 || forloop.index == 4 %}
+  {% if forloop.index == 2 OR forloop.index == 4 %}
   </div>
   {% endif %}
 
