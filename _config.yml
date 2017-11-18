@@ -140,16 +140,16 @@ produkty:
       imgSrcPrefix: /img/plakaty/plakat-kosmos-alfabet
       price: "19.00"
       allegro: http://allegro.pl/plakat-edukacyjny-dla-dzieci-kosmos-alfabet-i7048630548.html
-    samochody:
-      key: samochody
-      nazwa: Plakat edukacyjny - Samochody
-      header: Plakat edukacyjny - Samochody
+    droga:
+      key: droga
+      nazwa: Plakat edukacyjny - Droga
+      header: Plakat edukacyjny - Droga
       infoParagraphA: Idealny pomysł na dekorację w pokoju dziecka. Zaprojektowany został tak, aby wywołać uśmiech i radość malucha.
       infoParagraphB:
       infoParagraphC:
       howItWorksParagraphA: Plakaty edukacyjne rozwijają wyobraźnie i pobudzają kreatywność a także wprowadzają dzieci w świat alfabetu i cyfr.
       howItWorksParagraphB: Dzięki stałej ekspozycji, dziecko poznaje litery liczby  w bardzo przyjemny sposób – za pośrednictwem ulubionych zwierząt, bajek i kolorów.
-      url: /plakat-samochody
-      imgSrcPrefix: /img/plakaty/plakat-samochody
+      url: /plakat-droga
+      imgSrcPrefix: /img/plakaty/plakat-droga
       price: "19.00"
       allegro: http://allegro.pl/plakat-edukacyjny-dla-dzieci-droga-i7052432038.html
