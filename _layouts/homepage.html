@@ -11,7 +11,7 @@
         {% for karta in site.produkty.karty %}
         <div class="col-md-4 karty-box-column" id="homepage-karta-{{ forloop.index }}"  {% if forloop.index > 3 %}style="display: none;"{% endif %}>
           <a href="{{ karta[1].url}}">
-            <img src="{{ karta[1].imgSrcPrefix }}-box.jpg" width="100%">
+            <img src="{{ karta[1].imgSrcPrefix }}-box.jpg" width="100%" class="ani">
           </a>
           <div class="text-right"><img src="/img/thing.jpg" /></div>
         </div>
