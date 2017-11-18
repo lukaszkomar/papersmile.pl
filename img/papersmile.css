@@ -12,6 +12,7 @@
 .mt25 { margin-top: 25px; }
 .mt50 { margin-top: 50px; }
 .mb50 { margin-bottom: 50px; }
+.mb30 { margin-bottom: 30px; }
 .p0   { padding: 0; }
 
 h1 { font-size: 30px; }
@@ -80,11 +81,6 @@ a.instagram {
   margin: 30px 0;
 }
 
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-}
-
 .logo img {
   height: 50px;
 }
@@ -96,17 +92,6 @@ a.instagram {
   margin: auto !important;
 }
 
-/* Karty */
-
-.karty-box-column:nth-child(1) {
-  text-align: center;
-}
-.karty-box-column:nth-child(2) {
-  text-align: center;
-}
-.karty-box-column:nth-child(3) {
-  text-align: center;
-}
 
 @media screen and (min-width: 768px) {
 
@@ -132,19 +117,6 @@ a.instagram {
   .logo img {
 	  height: 180px;
   }
-
-  /* Karty */
-
-  .karty-box-column:nth-child(1) {
-    text-align: left;
-  }
-  .karty-box-column:nth-child(2) {
-    text-align: center;
-  }
-  .karty-box-column:nth-child(3) {
-    text-align: right;
-  }
-
 }
 
 /* Medium devices (desktops, 992px and up) */

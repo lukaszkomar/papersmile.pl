@@ -1,8 +1,8 @@
 {% include header.html %}
 
     <div>
-      <div class="row mb50">
-        <h3>Karty do zdjęć:</h3>
+      <div class="row mb30">
+        <h4>KARTY DO ZDJĘĆ:</h4>
       </div>
     </div>
 
@@ -20,13 +20,13 @@
     </div>
 
     <div>
-      <div class="row mb50">
-        <h3>Plakaty edukacyjne dla dzieci:</h3>
+      <div class="row mb30">
+        <h4>PLAKATY EDUKACYJNE DLA DZIECI:</h4>
       </div>
     </div>
 
     <div>
-      <div class="row mb50">
+      <div class="row mb30">
         {% for plakat in site.produkty.plakaty %}
         <div class="col-md-4 karty-box-column" id="homepage-plakat-{{ forloop.index }}"  {% if forloop.index > 3 %}style="display: none;"{% endif %}>
           <a href="{{ plakat[1].url}}">
@@ -39,8 +39,8 @@
     </div>
 
     <div>
-      <div class="row mb50">
-        <h3>Nasze produkty:</h3>
+      <div class="row mb30">
+        <h4>NASZE PRODUKTY:</h4>
       </div>
     </div>
 
