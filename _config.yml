@@ -117,7 +117,7 @@ produkty:
     kosmos:
       key: kosmos
       nazwa: Plakat Kosmos
-      header: Plakat Kosmos
+      header: Plakat edukacyjny Kosmos - Liczby
       infoParagraphA: Plakat.
       infoParagraphB:
       infoParagraphC:
@@ -125,12 +125,12 @@ produkty:
       howItWorksParagraphB:
       url: /plakat-kosmos
       imgSrcPrefix: /img/plakaty/plakat-kosmos
-      price:
-      allegro:
+      price: "19.00"
+      allegro: http://allegro.pl/plakat-edukacyjny-dla-dzieci-kosmos-liczby-i7048651889.html
     kosmos-alfabet:
       key: kosmos-alfabet
       nazwa: Plakat Kosmos Alfabet
-      header: Plakat Kosmos Alfabet
+      header: Plakat edukacyjny Kosmos - Alfabet
       infoParagraphA: Plakat.
       infoParagraphB:
       infoParagraphC:
@@ -138,8 +138,8 @@ produkty:
       howItWorksParagraphB:
       url: /plakat-kosmos-alfabet
       imgSrcPrefix: /img/plakaty/plakat-kosmos-alfabet
-      price:
-      allegro:
+      price: "19.00"
+      allegro: http://allegro.pl/plakat-edukacyjny-dla-dzieci-kosmos-alfabet-i7048630548.html
     samochody:
       key: samochody
       nazwa: Plakat Samochody
