@@ -7,7 +7,7 @@
   <div class="row mb50">
   {% endif %}
 
-    <div class="col-md-6">
+    <div class="col-md-6" id="item-{{ forloop.index }}" >
       <a href="{{ item[1].url}}">
         <img src="{{ item[1].imgSrcPrefix}}-box.jpg" width="100%">
       </a>
