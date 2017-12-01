@@ -26,10 +26,10 @@
      */
     var reloadSets = function(selectorPrefix, max, limit) {
 
-        var min = 1, array = {};
+        var min = 1, array = [];
 
         for (i = min; i <= max; i++) {
-            array[i] = i;
+            array.push(i);
         }
 
         array.forEach(function(item, index) {
