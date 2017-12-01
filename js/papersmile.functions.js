@@ -33,7 +33,7 @@
 
         var min = 1;
 
-        var array = [min];
+        var array = null;
 
         for (i = min; i <= max; i++) {
             array[i] = i;
