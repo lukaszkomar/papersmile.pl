@@ -33,7 +33,7 @@
         }
 
         array.forEach(function(item, index) {
-            $(selectorPrefix + index).hide();
+            $(selectorPrefix + item).hide();
         });
 
         console.log('reloadSets Params:', selectorPrefix, min, max, array);
@@ -45,7 +45,7 @@
 
         resultArray.forEach(function(item, index) {
             console.log('foreach', item,index);
-            $(selectorPrefix + index).show();
+            $(selectorPrefix + item).show();
         });
     };
 
