@@ -6,7 +6,7 @@ $(document).ready(function() {
         $('#img-big').attr('src', $(this).attr('src'));
     });
 
-    $('.magnific-popup').magnificPopup({type:'image'});
+    $('.magnific-popup').magnificPopup({delegate: 'a', type:'image'});
 
 
     reloadSets('#homepage-karta-' , {{ site.produkty.karty.size }}  , 3);
