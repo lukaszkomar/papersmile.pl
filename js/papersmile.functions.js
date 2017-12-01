@@ -1,7 +1,47 @@
+
+    /**
+     * @see http://en.wikipedia.org/wiki/Fisher-Yates_shuffle
+     */
+    function shuffle(array) {
+        var currentIndex = array.length, temporaryValue, randomIndex;
+
+        // While there remain elements to shuffle...
+        while (0 !== currentIndex) {
+
+            // Pick a remaining element...
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
+
+            // And swap it with the current element.
+            temporaryValue = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temporaryValue;
+        }
+
+        return array;
+    }
+
+    // Used like so
+    var arr = [2, 11, 37, 42];
+    arr = shuffle(arr);
+    console.log(arr);
+
     /**
      * Losowe zestawy
      */
     var reloadSets = function(selectorPrefix, min, max) {
+
+        var array = [];
+
+        for (i = min; i <= max; i++) {
+            array[i] = i;
+        }
+
+        console.log('reloadSets Params:', selectorPrefix, min, max, array);
+
+        resultArray = shuffle(array).slice(0,3);
+
+        console.log('reloadSets resultArray:', resultArray);
 
         var randNumber =  Math.floor(Math.random() * (max - min) + min + 0.9);
 
@@ -15,3 +55,21 @@
             }
         }
     };
+
+    // var getRandom = function(arr, n) {
+    //
+    //     random = array.sort(() => .5 - Math.random()).slice(0,n)
+    //
+    //
+    //     var result = new Array(n),
+    //         len = arr.length,
+    //         taken = new Array(len);
+    //     if (n > len)
+    //         throw new RangeError("getRandom: more elements taken than available");
+    //     while (n--) {
+    //         var x = Math.floor(Math.random() * len);
+    //         result[n] = arr[x in taken ? taken[x] : x];
+    //         taken[x] = --len;
+    //     }
+    //     return result;
+    // }
