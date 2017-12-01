@@ -36,33 +36,13 @@
             $(selectorPrefix + item).hide();
         });
 
-        console.log('reloadSets Params:', selectorPrefix, min, max, array);
+        //console.log('reloadSets Params:', selectorPrefix, max, limit, array);
 
         resultArray = shuffle(array).slice(0,limit);
 
-        console.log('reloadSets resultArray:', resultArray);
-
+        console.log('reloadSets resultArray:', selectorPrefix, resultArray);
 
         resultArray.forEach(function(item, index) {
-            console.log('foreach', item,index);
             $(selectorPrefix + item).show();
         });
     };
-
-    // var getRandom = function(arr, n) {
-    //
-    //     random = array.sort(() => .5 - Math.random()).slice(0,n)
-    //
-    //
-    //     var result = new Array(n),
-    //         len = arr.length,
-    //         taken = new Array(len);
-    //     if (n > len)
-    //         throw new RangeError("getRandom: more elements taken than available");
-    //     while (n--) {
-    //         var x = Math.floor(Math.random() * len);
-    //         result[n] = arr[x in taken ? taken[x] : x];
-    //         taken[x] = --len;
-    //     }
-    //     return result;
-    // }
