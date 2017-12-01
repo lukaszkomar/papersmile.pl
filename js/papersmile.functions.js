@@ -29,13 +29,19 @@
     /**
      * Losowe zestawy
      */
-    var reloadSets = function(selectorPrefix, min, max) {
+    var reloadSets = function(selectorPrefix, max, limit) {
 
-        var array = [];
+        var min = 1;
+
+        var array = [min];
 
         for (i = min; i <= max; i++) {
             array[i] = i;
         }
+
+        array.forEach(function(item, index) {
+            $(selectorPrefix + index).hide();
+        });
 
         console.log('reloadSets Params:', selectorPrefix, min, max, array);
 
@@ -43,17 +49,11 @@
 
         console.log('reloadSets resultArray:', resultArray);
 
-        var randNumber =  Math.floor(Math.random() * (max - min) + min + 0.9);
 
-        console.log('reloadSets: ', selectorPrefix, min, max, randNumber);
-
-        for (i = min; i <= max; i++) {
-            if (i == randNumber) {
-                $(selectorPrefix + i).hide();
-            } else {
-                $(selectorPrefix + i).show();
-            }
-        }
+        resultArray.forEach(function(item, index) {
+            console.log('foreach', item,index);
+            $(selectorPrefix + index).show();
+        });
     };
 
     // var getRandom = function(arr, n) {
