@@ -21,11 +21,6 @@
         return array;
     }
 
-    // Used like so
-    var arr = [2, 11, 37, 42];
-    arr = shuffle(arr);
-    console.log(arr);
-
     /**
      * Losowe zestawy
      */
@@ -43,7 +38,7 @@
 
         console.log('reloadSets Params:', selectorPrefix, min, max, array);
 
-        resultArray = shuffle(array).slice(0,3);
+        resultArray = shuffle(array).slice(0,limit);
 
         console.log('reloadSets resultArray:', resultArray);
 
