@@ -31,9 +31,7 @@
      */
     var reloadSets = function(selectorPrefix, max, limit) {
 
-        var min = 1;
-
-        var array = null;
+        var min = 1, array = {};
 
         for (i = min; i <= max; i++) {
             array[i] = i;
