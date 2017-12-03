@@ -15,14 +15,14 @@
           <p>Karty:</p>
 
           {% for karta in site.produkty.karty %}
-          <p><a href="{{ karta[1].url}}">{{ karta[1].name }}</a></p>
+          <p><a href="{{ karta[1].url}}">{{ karta[1].nazwa }}</a></p>
           {% endfor %}
         </div><!-- /.col -->
         <div class="col-md-6 col-12">
           <p>Plakaty:</p>
 
           {% for plakat in site.produkty.plakaty %}
-          <p><a href="{{ plakat[1].url}}">{{ plakat[1].name }}</a></p>
+          <p><a href="{{ plakat[1].url}}">{{ plakat[1].nazwa }}</a></p>
           {% endfor %}
         </div><!-- /.col -->
       </div><!-- /.row -->
