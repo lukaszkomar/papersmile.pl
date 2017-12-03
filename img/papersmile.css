@@ -75,12 +75,25 @@ a.instagram {
   height: 50px;
 }
 
+/* karuzela*/
+
 .carousel .item {
   background: #E5E1ED url("caro-bg.jpg");
 }
 .carousel .item img{
   margin: auto !important;
 }
+
+.carousel-control {
+  width: 5%;
+}
+
+.carousel-control.left,
+.carousel-control.left {
+  background-image: none;
+}
+
+/*  */
 
 img.ani {
   width: 100%;
