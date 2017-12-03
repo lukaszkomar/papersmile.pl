@@ -1,5 +1,42 @@
 {% include header.html %}
 
+
+    <div id="carousel-papersmile" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <!--
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-papersmile" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-papersmile" data-slide-to="1"></li>
+          <li data-target="#carousel-papersmile" data-slide-to="2"></li>
+          <li data-target="#carousel-papersmile" data-slide-to="3"></li>
+        </ol>
+        -->
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+
+            {% for karta in site.produkty.karty %}
+            <div class="item {% if forloop.first %}active{% endif %}">
+                <a href="{{ karta[1].url}}"><img src="{{ karta[1].imgSrcPrefix }}-karuzela.jpg" width="100%"></a>
+            </div>
+            {% endfor %}
+
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-papersmile" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Poprzednie</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-papersmile" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Następne</span>
+        </a>
+    </div>
+    <div class="text-right">
+        <img src="/img/thing.jpg" />
+    </div>
+
     <div>
       <div class="row mb30">
         <h4>KARTY DO ZDJĘĆ:</h4>
@@ -13,7 +50,7 @@
           <a href="{{ karta[1].url}}">
             <img src="{{ karta[1].imgSrcPrefix }}-box.jpg" class="ani">
           </a>
-          <div class="text-right"><img src="/img/thing.jpg" /></div>
+          <div class="text-right"><img src="/img/thing.jpg" class="mr5p" /></div>
         </div>
         {% endfor %}
       </div>
@@ -32,46 +69,11 @@
           <a href="{{ plakat[1].url}}">
             <img src="{{ plakat[1].imgSrcPrefix }}-glowne.jpg" class="ani">
           </a>
-          <div class="text-right"><img src="/img/thing.jpg" /></div>
+          <div class="text-right"><img src="/img/thing.jpg" class="mr5p" /></div>
         </div>
         {% endfor %}
       </div>
     </div>
 
-    <div id="carousel-papersmile" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <!--
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-papersmile" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-papersmile" data-slide-to="1"></li>
-        <li data-target="#carousel-papersmile" data-slide-to="2"></li>
-        <li data-target="#carousel-papersmile" data-slide-to="3"></li>
-      </ol>
-      -->
 
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner" role="listbox">
-
-        {% for karta in site.produkty.karty %}
-          <div class="item {% if forloop.first %}active{% endif %}">
-            <a href="{{ karta[1].url}}"><img src="{{ karta[1].imgSrcPrefix }}-karuzela.jpg" width="100%"></a>
-          </div>
-        {% endfor %}
-
-      </div>
-
-      <!-- Controls -->
-      <a class="left carousel-control" href="#carousel-papersmile" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Poprzednie</span>
-      </a>
-      <a class="right carousel-control" href="#carousel-papersmile" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Następne</span>
-      </a>
-    </div>
-    <div class="text-right">
-      <img src="/img/thing.jpg" />
-    </div>
-        
 {% include footer.html %}
