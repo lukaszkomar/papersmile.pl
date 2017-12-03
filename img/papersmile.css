@@ -85,12 +85,12 @@ a.instagram {
 }
 
 .carousel-control {
-  width: 5%;
+  width: 3%;
 }
 
 .carousel-control.left,
 .carousel-control.left {
-  background-image: none;
+  background-image: none !important;
 }
 
 /*  */
