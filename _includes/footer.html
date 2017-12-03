@@ -11,10 +11,19 @@
   <footer class="footer footer-2">
     <div class="container">
       <div class="row">
-        <div class="col-lg-9 col-sm-8 col-12">
+        <div class="col-md-6 col-12">
+          <p>Karty:</p>
 
-          <p>przyklad</p>
+          {% for karta in site.produkty.karty %}
+          <p><a href="{{ karta[1].url}}">{{ karta[1].name }}</a></p>
+          {% endfor %}
+        </div><!-- /.col -->
+        <div class="col-md-6 col-12">
+          <p>Plakaty:</p>
 
+          {% for plakat in site.produkty.plakaty %}
+          <p><a href="{{ plakat[1].url}}">{{ plakat[1].name }}</a></p>
+          {% endfor %}
         </div><!-- /.col -->
       </div><!-- /.row -->
     </div><!-- /.container -->
