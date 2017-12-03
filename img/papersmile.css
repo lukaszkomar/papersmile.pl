@@ -17,10 +17,7 @@
 
 h1 { font-size: 30px; }
 
-/* Space out content a bit */
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
   font-family: PROXIMANOVA, BEBASNEUE, Arial;
 }
 
@@ -33,13 +30,6 @@ body {
 /* Custom page header */
 .header {
   /*padding-bottom: 20px;*/
-}
-
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  text-align: center;
 }
 
 .navbar-collapse {
@@ -103,10 +93,9 @@ img.ani {
 
 /********************/
 
-/* foot */
-
 .footer {
   padding: 20px 0;
+  color: #777;
   font-size: 11px;
   line-height: 14px;
   width:100%;
