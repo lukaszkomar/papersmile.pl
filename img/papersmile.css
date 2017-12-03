@@ -92,17 +92,6 @@ a.instagram {
   margin: auto !important;
 }
 
-img.ani {
-  -webkit-transition: all 200ms ease;
-  -moz-transition: all 200ms ease;
-  -ms-transition: all 200ms ease;
-}
-
-img.ani:hover {
-  width: 105%;
-}
-
-
 @media screen and (min-width: 768px) {
 
   .container {
@@ -130,9 +119,19 @@ img.ani:hover {
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
 
 
+  img.ani {
+    width: 95%;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+  }
+
+  img.ani:hover {
+    width: 100%;
+  }
 
 
 }
