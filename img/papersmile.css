@@ -94,6 +94,11 @@ a.instagram {
   margin: auto !important;
 }
 
+img.ani {
+  width: 100%;
+  /* na mobile bez animacji */
+}
+
 @media screen and (min-width: 768px) {
 
   .container {
