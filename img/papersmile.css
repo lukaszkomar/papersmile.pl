@@ -101,6 +101,36 @@ img.ani {
   margin-right: 0;
 }
 
+/********************/
+
+/* foot */
+
+.footer {
+  padding: 20px 0;
+  font-size: 11px;
+  line-height: 14px;
+  width:100%;
+}
+
+.footer-center {
+  text-align:center;
+}
+
+.footer-2, .footer-2 a {
+  color: #888;
+  background: #444;
+}
+
+.footer-3 {
+  color: #666;
+  background: #222;
+}
+
+.footer-3 a {
+  color: #666;
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 768px) {
 
   .container {
