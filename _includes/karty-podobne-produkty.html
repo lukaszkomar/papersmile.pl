@@ -9,7 +9,7 @@
 
   {% for karta in site.produkty.karty %}
     {% if page.configKey != karta[0] %}
-      <div class="col-md-3 karty-box-column">
+      <div class="col-md-4 karty-box-column">
         <a href="{{ karta[1].url}}"><img src="/img/{{ karta[1].img }}-box.jpg" width="100%"></a>
         <div class="text-right"><img src="/img/thing.jpg" /></div>
       </div>
