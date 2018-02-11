@@ -104,6 +104,22 @@ img.ani {
   margin-right: 0;
 }
 
+.parent {}
+
+.parent:hover .child,
+.parent:focus .child {
+  transform: scale(1.2);
+}
+
+.child {
+  width: 100%;
+  height: 100%;
+  background-color: black; /* fallback color */
+  background-image: url("/img/karty-do-zdjec-pierwszy-rok-zycia-dziecka-zwierzeta-39-kart-box.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
 /********************/
 
 .footer {
