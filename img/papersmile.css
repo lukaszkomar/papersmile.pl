@@ -195,13 +195,12 @@ img.ani {
 */
 
   img.ani {
-    width: 90%;
     display: block;
     transition:all 0.25s ease;
   }
 
   .box:hover img.ani {
-    -webkit-transform:scale(1.1)
+    -webkit-transform:scale(1.05)
   }
 
   .thing-under-ani {
