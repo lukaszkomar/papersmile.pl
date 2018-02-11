@@ -104,6 +104,8 @@ img.ani {
   margin-right: 0;
 }
 
+/*********/
+
 .parent {}
 
 .parent:hover .child,
@@ -178,7 +180,7 @@ img.ani {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-
+/*
   img.ani {
     width: 95%;
     -webkit-transition: all 200ms ease;
@@ -188,6 +190,17 @@ img.ani {
 
   img.ani:hover {
     width: 100%;
+  }
+
+*/
+
+  img.ani {
+    display: block;
+    transition:all 0.25s ease;
+  }
+
+  .box:hover img.ani {
+    -webkit-transform:scale(1.25)
   }
 
   .thing-under-ani {
