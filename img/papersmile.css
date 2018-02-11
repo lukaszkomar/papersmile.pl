@@ -93,15 +93,10 @@ a.instagram {
   background-image: none !important;
 }
 
-/*  */
+/* na mobile bez animacji */
 
 img.ani {
   width: 100%;
-  /* na mobile bez animacji */
-}
-
-.thing-under-ani {
-  margin-right: 0;
 }
 
 /*********/
@@ -202,10 +197,5 @@ img.ani {
   .box:hover img.ani {
     -webkit-transform:scale(1.05)
   }
-
-  .thing-under-ani {
-    margin-right: 5%;
-  }
-
 }
 
