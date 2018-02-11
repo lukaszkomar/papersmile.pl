@@ -34,13 +34,16 @@
     {% if site.produkty.plakaty[page.configKey].howItWorksParagraphA %}<p class="text-justify">{{ site.produkty.plakaty[page.configKey].howItWorksParagraphA }}</p>{% endif %}
     {% if site.produkty.plakaty[page.configKey].howItWorksParagraphB %}<p class="text-justify">{{ site.produkty.plakaty[page.configKey].howItWorksParagraphB }}</p>{% endif %}
 
-    {% if site.produkty.plakaty[page.configKey].price%}
+{% comment %}
+    {% if site.produkty.plakaty[page.configKey].price %}
     <p class="text-center mt25">
-      <a href="#" class="btn btn-default btn-lg" role="button">
-        {{site.produkty.plakaty[page.configKey].price}} zł
+      <a href="{{site.produkty.plakaty[page.configKey].allegro}}" class="btn btn-default btn-lg" role="button" target="_blank">
+        Kup teraz za {{site.produkty.plakaty[page.configKey].price}} zł
       </a>
     </p>
     {% endif %}
+{% endcomment %}
+
     <p class="text-center mt25">
     Jesteś zainteresowany plakatem? / Spodobał Ci się ten plakat?<br/>
     Napisz do Nas!
