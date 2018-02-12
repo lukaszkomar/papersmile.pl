@@ -180,3 +180,17 @@ produkty:
       imgSrcPrefix: /img/plakaty/plakat-zwierzeta-alfabet
       price: "19.00"
       allegro: http://allegro.pl/plakat-edukacyjny-zwierzatka-alfabet-i7097078082.html
+  kocyki:
+    kocyk-2w1:
+      key: kocyk-2w1
+      nazwa: Kocyk dla dzieci 2w1
+      header: Kocyk dla dzieci 2w1
+      infoParagraphA: Kocyk dla dzieci do zdjęć.
+      infoParagraphB: Kocyk dla dzieci 2w1 (metryczka + kocyk Minky), to idealny sposób, na uwiecznienie najpiękniejszych chwil z życia każdego dziecka.
+      infoParagraphC: Zaprojektowany z myślą o rodzicach i dzieciach. Bez problemu uwiecznisz ważne momenty z życia twojego malucha. Samodzielnie stwórz piękną pamiątkę z pierwszych dni, tygodni, miesięcy a także lat swojego malucha. Kocyk to także idealny pomysł na prezent. Miekki w dotyku i praktyczny - utuli Twojego malucha do snu.
+      howItWorksParagraphA:
+      howItWorksParagraphB:
+      url: /kocyk-dla-dzieci-2w1.html
+      imgSrcPrefix: /img/kocyki/kocyk-dla-dzieci-2w1
+      price: "79.00"
+      allegro: http://allegro.pl/fotokocyk-2w1-fotomata-kocyk-dla-dzieci-minky-i7182228223.html

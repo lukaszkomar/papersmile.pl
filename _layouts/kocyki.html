@@ -1,0 +1,64 @@
+{% include header.html %}
+
+<div class="row">
+
+  <div class="col-md-6">
+    <img src="{{ site.produkty.kocyki[page.configKey].imgSrcPrefix }}-glowne.jpg" width="100%" id="img-big" />
+    <div class="row mt10 magnific-popup">
+      <div class="col-md-4">
+        <a href="{{ site.produkty.kocyki[page.configKey].imgSrcPrefix }}-glowne.jpg" target="_blank">
+          <img src="{{ site.produkty.kocyki[page.configKey].imgSrcPrefix }}-glowne.jpg" width="100%" class="img-thumbnail" id="img-first"/>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="{{ site.produkty.kocyki[page.configKey].imgSrcPrefix }}-wszystkie.jpg"  target="_blank">
+          <img src="{{ site.produkty.kocyki[page.configKey].imgSrcPrefix }}-wszystkie.jpg" width="100%" class="img-thumbnail"/>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="{{ site.produkty.kocyki[page.configKey].imgSrcPrefix }}-podwojne.jpg"   target="_blank">
+          <img src="{{ site.produkty.kocyki[page.configKey].imgSrcPrefix }}-podwojne.jpg" width="100%" class="img-thumbnail"/>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <h1 class="mt0">{{ site.produkty.kocyki[page.configKey].header }}</h1>
+
+    {% if site.produkty.kocyki[page.configKey].infoParagraphA %}<p class="text-justify">{{ site.produkty.kocyki[page.configKey].infoParagraphA }}</p>{% endif %}
+    {% if site.produkty.kocyki[page.configKey].infoParagraphB %}<p class="text-justify">{{ site.produkty.kocyki[page.configKey].infoParagraphB }}</p>{% endif %}
+    {% if site.produkty.kocyki[page.configKey].infoParagraphC %}<p class="text-justify">{{ site.produkty.kocyki[page.configKey].infoParagraphC }}</p>{% endif %}
+
+    {% if site.produkty.kocyki[page.configKey].howItWorksParagraphA %}<h2 class="mt0">Jak to działa?</h2>{% endif %}
+
+    {% if site.produkty.kocyki[page.configKey].howItWorksParagraphA %}<p class="text-justify">{{ site.produkty.kocyki[page.configKey].howItWorksParagraphA }}</p>{% endif %}
+    {% if site.produkty.kocyki[page.configKey].howItWorksParagraphB %}<p class="text-justify">{{ site.produkty.kocyki[page.configKey].howItWorksParagraphB }}</p>{% endif %}
+
+{% comment %}
+    {% if site.produkty.kocyki[page.configKey].price %}
+    <p class="text-center mt25">
+      <a href="{{site.produkty.kocyki[page.configKey].allegro}}" class="btn btn-default btn-lg" role="button" target="_blank">
+        Kup teraz za {{site.produkty.kocyki[page.configKey].price}} zł
+      </a>
+    </p>
+    {% endif %}
+{% endcomment %}
+
+    <p class="text-center mt25">
+    Spodobał Ci się ten plakat?<br/>
+    Napisz do Nas!
+    </p>
+  </div>
+</div>
+
+<ul class="nav nav-tabs">
+    <li role="opis" class="active"><a href="#">Opis</a></li>
+</ul>
+
+{{ content }}
+
+<hr>
+
+{% include kocyki-podobne-produkty.html %}
+
+{% include footer.html %}
