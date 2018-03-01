@@ -100,6 +100,20 @@ produkty:
       imgSrcPrefix: /img/karty-do-zdjec-pierwszy-rok-zycia-dziecka-kontrastowe
       price: "35.00"
       allegro: http://allegro.pl/kontrastowe-karty-do-zdjec-pierwszy-rok-zycia-i7128300955.html
+    pierwszy-rok-safari:
+      key: pierwszy-rok-safari
+      nazwa: Karty do zdjęć Pierwszy rok życia dziecka Safari
+      header: Karty do zdjęć - Pierwszy rok życia <br/>Safari
+      infoParagraphA: Zestaw unikalnych i niepowtarzalnych kart do zdjęć, dzięki którym uda się zachować najpiękniejsze chwile w życiu każdego dziecka.
+      infoParagraphB:
+      infoParagraphC:
+      howItWorksParagraphA: Zapisz datę na karcie, daj kartę dziecku do potrzymania albo połóż obok niego, zrób zdjęcie, a tył karty uzupełnij o ważne informacje i zachowaj. Piękna i ciekawa pamiątka – gotowa!
+      howItWorksParagraphB: Karty do zdjęć na pierwszy rok życia, to wyjątkowa oraz ciekawa propozycja na prezent dla każdej przyszłej mamy.
+      url: /karty-do-zdjec-pierwszy-rok-zycia-dziecka-safari
+      img: karty-do-zdjec/pierwszy-rok-zycia-dziecka-safari
+      imgSrcPrefix: /img/karty-do-zdjec/pierwszy-rok-zycia-dziecka-safari
+      price: "25.00"
+      allegro: http://allegro.pl/karty-do-zdjec-pierwszy-rok-zycia-dziecka-nowe-i7210277032.html
 #    swiateczne-bozonarodzeniowe:
 #      key: swiateczne-bozonarodzeniowe
 #      nazwa: Karty do zdjęć Zestaw Świąteczny
